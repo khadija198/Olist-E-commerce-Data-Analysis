@@ -175,6 +175,7 @@ LDA – detection of the 3 main topics in negative customer reviews
 Additional ML models – predictive and segmentation analyses
 
 🔍 **Data Quality & Exploration**
+
 ✅ 1. Missing Values
 
 For each table:
@@ -202,25 +203,17 @@ categories → categorical
 
 ✅ 3. Outlier Detection
 
-Applied to:
-
-payment_value
-
-price
-
-freight_value
-
-delivery time metrics
+Applied to: payment_value, price, freight_value, delivery time metrics
 
 ✅ 4. Duplicate Detection
 
 For each table:
 
-Identification of duplicate records
+➤ Identification of duplicate records.
 
-Count of duplicates
+➤ Count of duplicates.
 
-Removal or consolidation
+➤ Removal or consolidation.
 
 Tables concerned: same as above.
 
@@ -238,88 +231,89 @@ actual vs. estimated delivery
 
 Objective:
 
-identify delivery delays
+➤ Identify delivery delays.
 
-detect problematic orders
+➤ Detect problematic orders.
 
-link delays with low ratings
+➤ Link delays with low ratings.
 
 ❗ Missing Orders in order_items
 
 Detection of orders with no associated items, indicating:
 
-data entry issues
+- data entry issues.
 
-unlogged cancellations
+- unlogged cancellations.
 
-potential KPI distortion
+- potential KPI distortion.
 
-📈 Statistical Analysis & Correlations
+📈 Statistical Analysis & Correlations:
 
-Performed descriptive statistics and explored relationships between variables using:
+- Performed descriptive statistics and explored relationships between variables using:
 
-correlation matrix (heatmap)
+- correlation matrix (heatmap).
 
-scatterplots
+- scatterplots.
 
-distribution analyses
+- distribution analyses.
 
 Objectives:
 
-detect key relationships between variables
+➤ Detect key relationships between variables.
 
-understand drivers of delays, prices, and satisfaction
+➤ Understand drivers of delays, prices, and satisfaction.
 
-prepare data for modeling
+➤ Prepare data for modeling.
 
 📊 Dashboards & Insights
+
 🟦 1. Global Dashboard
 
-Provides a 360° view:
+- Provides a 360° view:
 
-order volume over time
+- Order volume over time
 
-revenue trends
+- Revenue trends
 
-geographic distribution
+- Geographic distribution
 
-delivery performance
+- Delivery performance
 
-overall satisfaction
+- Overall satisfaction
 
 🟩 2. Product Performance Dashboard
 
 Covers:
 
-top 5 best-selling categories
+- Top 5 best-selling categories.
 
-seasonality of orders
+- Seasonality of orders.
 
-payment method distribution
+- Payment method distribution.
 
 🟧 3. Logistics Dashboard
 
 Analyzes:
 
-freight cost vs. product weight correlation
+- Freight cost vs. product weight correlation.
 
-anomalies in order statuses
+- Anomalies in order statuses.
 
-operational time distribution
+- Operational time distribution.
 
-delivery delays across Brazil
+- Delivery delays across Brazil.
 
-🟨 4. Customer Satisfaction Dashboard
+🟨 4. Customer Satisfaction Dashboard.
 
 Includes:
 
-order distribution vs. review scores
+- Order distribution vs. review scores.
 
-best/worst sellers
+- Best/worst sellers.
 
-categories driving dissatisfaction
+- Categories driving dissatisfaction.
 
-rating distribution by region
+- Rating distribution by region.
 
 🤖 5. Predictive Modeling
 
@@ -327,17 +321,17 @@ Using Prophet, the project forecasts order volume over the next five years, iden
 
 🧠 NLP Analysis – Topic Modeling (LDA)
 
-We performed NLP on reviews with ratings ≤ 3, as well as the top 5 product categories with the most negative feedback.
+➤ We performed NLP on reviews with ratings ≤ 3, as well as the top 5 product categories with the most negative feedback.
 
-LDA Model Configuration:
+➤ LDA Model Configuration:
 
 Algorithm: LDA (Latent Dirichlet Allocation)
 
 n_components: 3 topics
 
-Goal: Identify major themes among dissatisfied customers
+➤ Goal: Identify major themes among dissatisfied customers
 
-Process: cleaning, tokenization, lemmatization, stopword removal
+➤ Process: cleaning, tokenization, lemmatization, stopword removal
 
 🎯 Strategic Business Recommendations
 
@@ -347,76 +341,76 @@ Based on product quality analysis, delivery performance, and NLP insights, sever
 
 Customer reviews and the LDA model reveal major dissatisfaction factors:
 
-poor product quality
+- Poor product quality.
 
-slow customer support
+- Slow customer support.
 
-frequent delivery delays
+- Frequent delivery delays.
 
 Recommended Actions
 📝 A. Review contracts with low-performing sellers
 
-High return rates
+➤ High return rates
 
-Frequent defective products
+➤ Frequent defective products
 
-Poor customer ratings
+➤ Poor customer ratings
 → Introduce a Seller Quality Index updated in real time
 
 🤖 B. Deploy real-time AI Feedback Monitoring
 
-Automatic NLP analysis of new reviews
+➤ Automatic NLP analysis of new reviews
 
-Early detection of spikes in complaints
+➤ Early detection of spikes in complaints
 
-Live quality & CX dashboard
+➤ Live quality & CX dashboard
 
 💬 C. Implement a 24/7 Customer Support Chatbot
 
-Track orders
+➤Track orders
 
-Provide return policies
+➤ Provide return policies
 
-Answer product questions
+➤ Answer product questions
 → Faster response time, reduced workload
 
 🚚 2. Issue: Delivery Delays & Product Unavailability
 
 Analysis shows a strong negative impact of:
 
-late deliveries
+- late deliveries
 
-stockouts
+- stockouts
 
 Recommended Actions
 📦 A. Short Term: Partial Outsourcing of Delivery
 
-Use reliable logistics partners
+➤ Use reliable logistics partners
 
-Improve delivery speed and tracking
+➤ Improve delivery speed and tracking
 
 🏭 B. Mid/Long Term: Build a Centralized Logistics Hub
 
-Faster shipment consolidation
+➤ Faster shipment consolidation
 
-Reduced transportation costs
+➤ Reduced transportation costs
 
 📊 C. Smart Stock Planning with Deep Learning
 
 Use LSTM/RNN/Prophet models to:
 
-forecast demand
+- forecast demand
 
-prevent stockouts
+- prevent stockouts
 
-optimize inventory
+- optimize inventory
 
 ✔ Impact
 
 These combined recommendations can significantly improve:
 
-customer satisfaction
+➤ customer satisfaction
 
-product quality
+➤ product quality
 
-logistics performance
+➤ logistics performance
