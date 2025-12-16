@@ -261,10 +261,6 @@ Nous avons identifié :
 → problème de data entry ou annulation non marquée  
 → distorsion dans les KPIs logistiques et financiers
 
-Exemple de code :
-
-```python
-missing_items = orders[~orders['order_id'].isin(order_items['order_id'])]
 
 ### ✅  Analyse statistique & Corrélations entre colonnes
 
