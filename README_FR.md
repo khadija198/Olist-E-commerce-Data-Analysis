@@ -158,8 +158,8 @@ Ce projet a été réalisé dans le cadre du Bootcamp Data Analytics & AI par :
 
 - [Kawtar Jawda](https://github.com/KawtarJawda1)
 - [Khadija Ait ouali](https://github.com/khadija198)
-- [Younes Oubella]()
-- [Mohammed Amine Regragui]()
+- [Younes Oubella](https://github.com/younes0090)
+- [Mohammed Amine Regragui](https://github.com/MohammedAmine2002)
 
 
 
