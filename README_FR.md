@@ -9,33 +9,33 @@ Ce projet a été réalisé dans le cadre du projet de fin de formation (capston
 
 L’objectif principal de ce projet est d’analyser le jeu de données e‑commerce Olist afin de :
 
-Explorer le comportement des clients
+- Explorer le comportement des clients.
 
-Comprendre les problématiques de rétention client
+- Comprendre les problématiques de rétention client.
 
-Générer des insights pertinents et exploitables
+- Générer des insights pertinents et exploitables.
 
 Le projet combine analyse de données, NLP, prévision de séries temporelles et business intelligence, notamment :
 
-Analyse de sentiments des avis clients à l’aide du NLP
+- Analyse de sentiments des avis clients à l’aide du NLP.
 
-Prévision du volume de commandes avec Prophet
+- Prévision du volume de commandes avec Prophet.
 
-Création de tableaux de bord interactifs avec Power BI
+- Création de tableaux de bord interactifs avec Power BI.
 
 🎯 Objectifs du projet
 
 Les principaux objectifs de ce projet sont :
 
-Nettoyer et préparer les données pour l’analyse
+- Nettoyer et préparer les données pour l’analyse.
 
-Utiliser des techniques de NLP afin de comprendre les causes de la faible rétention client
+- Utiliser des techniques de NLP afin de comprendre les causes de la faible rétention client.
 
-Appliquer Prophet pour prévoir le volume des commandes sur les cinq prochaines années
+- Appliquer Prophet pour prévoir le volume des commandes sur les cinq prochaines années.
 
-Concevoir des tableaux de bord interactifs et pertinents avec Power BI
+- Concevoir des tableaux de bord interactifs et pertinents avec Power BI.
 
-Fournir des recommandations claires et data‑driven pour améliorer la performance globale d’Olist
+- Fournir des recommandations claires et data‑driven pour améliorer la performance globale d’Olist.
 
 ## 🗂️ Données Utilisées
 
@@ -63,59 +63,57 @@ olist_category_dataset
 
 Olist fournit un dictionnaire de données clair et bien structuré, décrivant chaque variable présente dans les différentes tables.
 
-Cette documentation [Data dictionary PDF](Data/Data%20dictionary.pdf)
+Cette documentation [Data dictionary PDF](https://github.com/khadija198/Olist-E-commerce-Data-Analysis/blob/c215bf15bcc1466cd59fb84eaefba4fc57a64807/Data%20Dictionary.pdf):
 
+- Explique le rôle et la signification de chaque variable.
 
-Explique le rôle et la signification de chaque variable
+- Garantit une interprétation correcte des données.
 
-Garantit une interprétation correcte des données
+- Facilite la compréhension des relations entre les tables.
 
-Facilite la compréhension des relations entre les tables
-
-Le dictionnaire de données est essentiel pour réaliser des analyses fiables et cohérentes.
 
 ❓ Questions métier
 📈 Performance globale
 
-Quel est le chiffre d’affaires total et comment évolue‑t‑il dans le temps ?
+- Quel est le chiffre d’affaires total et comment évolue‑t‑il dans le temps ?
 
-Combien de commandes sont reçues et comment ce volume évolue‑t‑il mois par mois ?
+- Combien de commandes sont reçues et comment ce volume évolue‑t‑il mois par mois ?
 
-Combien de clients et de vendeurs sont actifs sur la plateforme ?
+- Combien de clients et de vendeurs sont actifs sur la plateforme ?
 
-Les commandes sont‑elles livrées à temps ou observe‑t‑on un taux élevé de retards ?
+- Les commandes sont‑elles livrées à temps ou observe‑t‑on un taux élevé de retards ?
 
-Quel est le niveau de satisfaction client (clients satisfaits vs insatisfaits) ?
+- Quel est le niveau de satisfaction client (clients satisfaits vs insatisfaits) ?
 
-Où sont localisés géographiquement les clients ?
+- Où sont localisés géographiquement les clients ?
 
 🛒 Performance des produits
 
-Quelles catégories de produits génèrent le plus de chiffre d’affaires ?
+- Quelles catégories de produits génèrent le plus de chiffre d’affaires ?
 
-Combien de produits sont vendus et sur combien de catégories ?
+- Combien de produits sont vendus et sur combien de catégories ?
 
-Comment évoluent les volumes de commandes mensuels (2017 vs 2018) ?
+- Comment évoluent les volumes de commandes mensuels (2017 vs 2018) ?
 
-Quelle est la valeur moyenne des commandes (AOV) ?
+- Quelle est la valeur moyenne des commandes (AOV) ?
 
-Quels sont les moyens de paiement les plus utilisés par les clients ?
+- Quels sont les moyens de paiement les plus utilisés par les clients ?
 
-Comment le chiffre d’affaires se compare‑t‑il au nombre de commandes par catégorie de produit ?
+- Comment le chiffre d’affaires se compare‑t‑il au nombre de commandes par catégorie de produit ?
 
 🚚 Performance logistique
 
-Quel est le délai moyen de livraison (ADT) et est‑il satisfaisant ?
+- Quel est le délai moyen de livraison (ADT) et est‑il satisfaisant ?
 
-Quel pourcentage des commandes est livré à temps (OTD) ?
+- Quel pourcentage des commandes est livré à temps (OTD) ?
 
-Quel est le coût moyen du transport et quels facteurs l’influencent ?
+- Quel est le coût moyen du transport et quels facteurs l’influencent ?
 
-Comment se répartissent les temps opérationnels (validation, préparation, transport) ?
+- Comment se répartissent les temps opérationnels (validation, préparation, transport) ?
 
-Existe‑t‑il une corrélation entre le poids des produits et le coût du transport ?
+- Existe‑t‑il une corrélation entre le poids des produits et le coût du transport ?
 
-Quels sont les États avec les délais de livraison les plus longs et les plus courts ?
+- Quels sont les États avec les délais de livraison les plus longs et les plus courts ?
 
 💬 Analyse des sentiments clients (NLP)
 
@@ -125,43 +123,43 @@ Afin d’en comprendre les causes, nous avons mené une analyse de sentiments su
 
 Cette analyse met en évidence les principales sources d’insatisfaction, notamment :
 
-Les problèmes de qualité des produits
+- Les problèmes de qualité des produits.
 
-Les retards de livraison
+- Les retards de livraison.
 
-Les difficultés liées au service client
+- Les difficultés liées au service client.
 
 🔍 Questions clés analysées
 
-Quelles catégories de produits reçoivent le plus d’avis négatifs ?
+- Quelles catégories de produits reçoivent le plus d’avis négatifs ?
 
-Quelles sont les principales causes de l’insatisfaction client ?
+- Quelles sont les principales causes de l’insatisfaction client ?
 
-Quels thèmes dominent dans les avis négatifs (qualité produit, livraison, service client) ?
+- Quels thèmes dominent dans les avis négatifs (qualité produit, livraison, service client) ?
 
-Quelles catégories sont les plus impactées par les avis négatifs ?
+- Quelles catégories sont les plus impactées par les avis négatifs ?
 
 📦 Livrables
 
-Jeux de données nettoyés et structurés
+➤ Jeux de données nettoyés et structurés
 
-Notebooks d’analyse exploratoire et avancée
+➤ Notebooks d’analyse exploratoire et avancée
 
-Analyse NLP des avis clients
+➤ Analyse NLP des avis clients
 
-Modèle de prévision des commandes (séries temporelles)
+➤ Modèle de prévision des commandes (séries temporelles)
 
-Tableaux de bord interactifs Power BI
+➤ Tableaux de bord interactifs Power BI
 
 
 ## 👥 Équipe Projet
 
 Ce projet a été réalisé dans le cadre du Bootcamp Data Analytics & AI par :
 
-- **Kawtar Jawda**  
-- **Khadija Ait ouali**
-- **Younes Oubella**
-- **Mohammed Amine Regragui**
+- [Kawtar Jawda](https://github.com/KawtarJawda1)
+- [Khadija Ait ouali](https://github.com/khadija198)
+- [Younes Oubella]()
+- [Mohammed Amine Regragui]()
 
 
 
@@ -291,7 +289,6 @@ Ce tableau de bord donne une vision 360° de l’activité Olist :
 - performance de livraison  
 - taux de satisfaction global  
 
-Objectif : offrir une vue consolidée pour la direction.
 
 ---
 
@@ -309,7 +306,7 @@ Objectif : aider le département commercial & marketing à optimiser l’offre p
 ### 🟧 3. Dashboard Logistique
 Analyse complète du processus d'expédition :
 - Corrélation entre le prix du transport et poids des produits 
--Analyse anomalie du statut des commandes  
+- Analyse anomalie du statut des commandes  
 - évolution de la répartition des temps opérationnels  
 - Carte de délais de livraison selon états / régions du Brésil  
 
@@ -321,8 +318,8 @@ Objectif : identifier les points de friction dans la supply chain.
 Dédié à l’expérience client :
 - distribution des commandes et satisfaction client
 - Top vendeurs selon la note des clients  
-- Catégorie produits qui générent l insatisfaction client
--Carte de répartition note des reviews par Région 
+- Catégorie produits qui générent l'insatisfaction client
+- Carte de répartition note des reviews par Région 
 
 Objectif : améliorer la satisfaction client et réduire les plaintes.
 
