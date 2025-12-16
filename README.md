@@ -53,7 +53,7 @@ The Olist dataset is composed of [nine CSV files](https://www.kaggle.com/dataset
 
 Olist provides a **comprehensive and well-structured data dictionary** that describes each variable across all tables.
 
-This documentation [Data Dictionary.pdf](https://github.com/khadija198/Olist-Data-Analysis/blob/7feb94c52517af246163a44759eabcd0c9a5b1ac/Data%20Dictionary.pdf)
+This documentation [Data Dictionary.pdf](https://github.com/khadija198/Olist-E-commerce-Data-Analysis/blob/26cf8ed90bc9e5e86bd84980d66129e44f7eadd5/Data%20Dictionary.pdf)
 :
 
 * Explains the meaning and role of each feature
