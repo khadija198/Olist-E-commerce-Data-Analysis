@@ -133,10 +133,10 @@ This analysis highlights the main drivers of dissatisfaction, including:
 
 This project was developed as part of the Data Analytics & AI Bootcamp by:
 
-- **Kawtar Jawda**  
-- **Khadija Ait ouali**
-- **Younes Oubella**
-- **Mohammed Amine Regragui**
+- [Kawtar Jawda](https://github.com/KawtarJawda1)
+- [Khadija Ait ouali](https://github.com/khadija198)
+- [Younes Oubella](https://github.com/younes0090)
+- [Mohammed Amine Regragui](https://github.com/MohammedAmine2002)
 
 
 ## 🛠️ Tech Stack
